@@ -12,7 +12,7 @@ We have proposed to use ***LV strain maps*** derived from cine CMR with a ***gra
 The main contributions  are as follows:<br />
 (1) LV strain map is a [N,T] matrix where N is the number of AHA segments (regional) and T is the number of time frames (temporal). It is a comprehensive representation of LV function.<br />
 (2) A Chebyshev GCN is used to encode the LV strain map. The edge matrix is defined according to the anatomically adjacency of AHA segments.<br />
-(3) We also offer the options to add clinical data from electronic health record (EHR) as additional input.<br />
+(3) We also offer the option to add clinical data from electronic health record (EHR) as additional input.<br />
 
 
 ## User Guideline
@@ -37,12 +37,12 @@ You should prepare two things before running this step. Please refer to the `exa
 
 ### Experiments
 we have design our study into 2 steps, with each step having its own jupyter notebook.<br /> 
-**step1: get LV strain map**: ```step1_calculate_LV_strain.ipynb``
+**step1: get LV strain map**: ```step1_calculate_LV_strain.ipynb```
 1. We use published method [DeepStrain](https://github.com/moralesq/DeepStrain) to generate regional LV strain from cine CMR short-axis (SAX) views. we use the first time frame (end-diastole) as template. <br /> 
 2. The generated strains are saved in ```example_data/results```
 
 **step2: model***: use ```step2_model.ipynb```
-1. It samples the number of time frames into 25 as default <br /> 
+1. It interpolates the number of time frames into 25 as default <br /> 
 2. Training and prediction included  <br /> 
 
 ### Additional guidelines 
