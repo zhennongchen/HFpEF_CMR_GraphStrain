@@ -1,4 +1,4 @@
-# Synthesize cardiac 4DCT using diffusion model
+# Predict Readmission of HFpEF patients using LV strains from cine CMR
 **Author: Zhennong Chen, PhD**<br />
 
 This is the GitHub repo based on an paper under rewivew: <br />
