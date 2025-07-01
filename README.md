@@ -2,7 +2,7 @@
 **Author: Zhennong Chen, PhD**<br />
 
 This is the GitHub repo based on an paper under rewivew: <br />
-*Predicting Two-year Readmission of Heart Failure with Preserved Ejection Fraction using Comprehensive Left-ventricular Strain Analysis from Cardiac Magnetic Resonance and Deep Learning *<br />
+*Predicting Two-year Readmission of Heart Failure with Preserved Ejection Fraction using Comprehensive Left-ventricular Strain Analysis from Cardiac Magnetic Resonance and Deep Learning*<br />
 Authors: Zhennong Chen, Hui Ren, Chagin Choi, Hyun Jin Cho, Sun-hyun Kim, Siyeop Yoon, Xiang Li, Quanzheng Li<br />
 
 **Citation**: TBD
