@@ -11,7 +11,7 @@ Authors: Zhennong Chen, Hui Ren, Chagin Choi, Hyun Jin Cho, Sun-hyun Kim, Siyeop
 We have proposed to use ***LV strain maps*** derived from cine CMR with a ***graph convolutional network (GCN)*** to predict heart failure (HF)-related readmission in patients with ***heart failure with preserved ejection fraction (HFpEF)***.<br />
 The main contributions  are as follows:<br />
 (1) LV strain map is a [N,T] matrix where N is the number of AHA segments (regional) and T is the number of time frames (temporal). It is a comprehensive representation of LV function.<br />
-(2) A Chebyshev GCN is used to encode the LV strain map. The edge matrix is defined according to the anatomically adjacency of AHA segments.<br />
+(2) A Chebyshev GCN is used to encode the LV strain map. The edge matrix is defined according to the anatomical adjacency of AHA segments.<br />
 (3) We also offer the option to add clinical data from electronic health record (EHR) as additional input.<br />
 
 
