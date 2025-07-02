@@ -36,7 +36,7 @@ You should prepare two things before running this step. Please refer to the `exa
 
 
 ### Experiments
-we have design our study into 2 steps, with each step having its own jupyter notebook.<br /> 
+we have designed our study into 2 steps, with each step having its own jupyter notebook.<br /> 
 **step1: get LV strain map**: ```step1_calculate_LV_strain.ipynb```
 1. We use published method [DeepStrain](https://github.com/moralesq/DeepStrain) to generate regional LV strain from cine CMR short-axis (SAX) views. we use the first time frame (end-diastole) as template. <br /> 
 2. The generated strains are saved in ```example_data/results```
